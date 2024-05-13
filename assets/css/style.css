@@ -1,0 +1,289 @@
+/*
+ Landingpage Default css
+*/
+body {
+   margin: 0;
+   padding: 0;
+   font-size: 18px;
+   box-sizing: border-box;
+   /* font-family: "Poppins", sans-serif; */
+   /* font-family: "Inter", sans-serif; */
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+span,
+video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   background: transparent;
+}
+
+p a {
+   background: transparent !important;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+   display: block;
+}
+
+textarea {
+   outline: none !important;
+}
+
+audio,
+canvas,
+video {
+   display: inline-block;
+}
+
+a {
+   outline: none !important;
+}
+
+audio:not([controls]) {
+   display: none;
+   height: 0;
+}
+
+[hidden] {
+   display: none;
+}
+
+code,
+kbd,
+pre,
+samp {
+   font-family: monospace, serif;
+   font-size: 1em;
+}
+
+pre {
+   white-space: pre;
+   white-space: pre-wrap;
+   word-wrap: break-word;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+   content: '';
+   content: none;
+}
+
+ins {
+   background-color: #ff9;
+   color: #000;
+   text-decoration: none;
+}
+
+mark {
+   background-color: #A7F4F6;
+   color: #555;
+}
+
+del {
+   text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+   border-bottom: 1px dotted;
+   cursor: help;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+button {
+   outline: none !important;
+}
+
+input {
+   outline: none !important;
+}
+
+textarea {
+   outline: none !important;
+}
+
+/******************************** End default css*******************************************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+   margin: 0;
+   padding: 0;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+a {
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+/**************************************/
+/************ Header  Area*************/
+/************************************/
+
+.navbar-container {
+   max-width: 1360.99px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-family: "Poppins", sans-serif;
+}
+
+.menu {
+   display: flex;
+   align-items: center;
+   gap: 34px;
+}
+
+.menu ul {
+   display: flex;
+   gap: 19px;
+}
+
+.menu ul li a {
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 24px;
+   color: #A6A6A6;
+}
+
+.menu ul li a:hover {
+   font-size: 18px;
+   line-height: 27px;
+   color: #000000;
+   transition-delay: 0.1s;
+}
+
+.quotation-btn {
+   border: 1px solid #000000;
+   border-radius: 28px;
+}
+
+.quotation-btn a {
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 24px;
+   color: #191919;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 12.4px 6.8px 12.4px 17.2px;
+}
+
+.quotation-btn a i {
+   color: white;
+   background: #FF8700;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   margin-left: 9.8px;
+}
+
+/**************************************/
+/************ Header  Area*************/
+/************************************/
